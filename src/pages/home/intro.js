@@ -1,5 +1,6 @@
 import React, { useRef } from 'react';
-import myProfile from '/Users/Asus/OneDrive/Desktop/Harsh-portfolio/client/src/assets/profile.jpg';
+import myProfile from '../../assets/profile.jpg';
+
 
 function Intro() {
   const profileRef = useRef(null); 

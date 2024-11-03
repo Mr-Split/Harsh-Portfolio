@@ -1,4 +1,4 @@
-import tcs from "/Users/Asus/OneDrive/Desktop/Harsh-portfolio/client/src/assets/tcs2.png";
+import tcs from "../assets/tcs2.png";
 
 export const experiences = [
     {

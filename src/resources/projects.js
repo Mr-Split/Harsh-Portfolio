@@ -1,6 +1,6 @@
-import digital from "/Users/Asus/OneDrive/Desktop/Harsh-portfolio/client/src/assets/digital.jpg";
-import go from "/Users/Asus/OneDrive/Desktop/Harsh-portfolio/client/src/assets/go.jpg";
-import game from "/Users/Asus/OneDrive/Desktop/Harsh-portfolio/client/src/assets/game.jpg";
+import digital from "../assets/digital.jpg";
+import go from "../assets/go.jpg";
+import game from "../assets/game.jpg";
 
 export const projects = [
     {
