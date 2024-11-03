@@ -8,7 +8,7 @@ import Loader from './components/loader'; // Adjust the path as necessary
 //import { SetPortfolioData } from './redux/rootSlice';
 
 function App() {
-  const [showLoading, setShowLoading] = useState(false);
+  const [showLoading] = useState(false);
  // const dispatch = useDispatch();
 
 

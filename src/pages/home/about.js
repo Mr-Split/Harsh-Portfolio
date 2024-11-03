@@ -62,7 +62,7 @@ export default about */
 
 import React from 'react';
 import SectionTitle from '../../components/sectionTitle';
-import { FaJava, FaJsSquare, FaReact, FaNodeJs, FaAws, FaGithub, FaDatabase, FaJenkins, FaGolang} from 'react-icons/fa';
+import { FaJsSquare, FaReact, FaNodeJs, FaAws, FaGithub, FaJenkins} from 'react-icons/fa';
 import { PiFileCppFill, PiFileCSharpFill } from 'react-icons/pi'; // Importing C++ and C# icons
 import { SiMongodb, SiSpringboot } from 'react-icons/si'; // Importing MongoDB and Spring Boot icons
 import { GrMysql } from 'react-icons/gr'; // Importing MySQL icon
