@@ -14,7 +14,7 @@ function Header() {
       />
 
   {/* Navigation Links */}
-  <div className="flex space-x-10 text-white text-lg font-medium">
+  <div className="flex space-x-10 sm:space-x-4 text-white text-lg font-medium">
         <a href="#about" className="hover:text-tertiary">About</a>
         <a href="#experience" className="hover:text-tertiary">Experience</a>
         <a href="#projects" className="hover:text-tertiary">Projects</a>
@@ -23,7 +23,7 @@ function Header() {
       </div>
 
       {/* Name */}
-      <div className="flex space-x-2">
+      <div className="flex space-x-2 sm:hidden">
         <h1 className="text-white text-4xl font-semibold">Harsh</h1>
         <h1 className="text-tertiary text-4xl font-semibold">Choudhary</h1>
       </div>
