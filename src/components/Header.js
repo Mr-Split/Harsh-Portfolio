@@ -1,4 +1,4 @@
-import icon from '/Users/Asus/OneDrive/Desktop/Harsh-portfolio/client/src/assets/icon.jpg';
+import icon from '/Users/Asus/OneDrive/Desktop/Harsh-portfolio/client/src/icon.jpg';
 
 function Header() {
   return (
