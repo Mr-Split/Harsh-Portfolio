@@ -5,7 +5,7 @@ import icon from '../assets/icone.jpg';
 function Header() {
   return (
     <div className="p-5 bg-primary flex justify-between items-center">
-      <div className="flex items-center space-x-10">
+      <div className="flex items-center space-x-6 sm:space-x-3 ">
       {/* User Icon */}
       <img
         src={icon} 
@@ -14,16 +14,16 @@ function Header() {
       />
 
   {/* Navigation Links */}
-  <div className="flex space-x-10 sm:hidden text-white text-lg font-medium">
-        <a href="#about" className="hover:text-tertiary">About</a>
-        <a href="#experience" className="hover:text-tertiary">Experience</a>
-        <a href="#projects" className="hover:text-tertiary">Projects</a>
-        <a href="#contact" className="hover:text-tertiary">Contact</a>
+  <div className="flex space-x-10 sm:space-x-4 text-white text-lg font-medium">
+        <a href="#about" className="sm:text-sm hover:text-tertiary">About</a>
+        <a href="#experience" className="sm:text-sm hover:text-tertiary">Experience</a>
+        <a href="#projects" className="sm:text-sm hover:text-tertiary">Projects</a>
+        <a href="#contact" className="sm:text-sm hover:text-tertiary">Contact</a>
       </div>
       </div>
 
       {/* Name */}
-      <div className="flex space-x-2 ">
+      <div className="flex space-x-2 sm:hidden">
         <h1 className="text-white text-4xl font-semibold">Harsh</h1>
         <h1 className="text-tertiary text-4xl font-semibold">Choudhary</h1>
       </div>
